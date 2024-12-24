@@ -10,19 +10,19 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
-<body>
+<body class="bg-slate-100">
     <div id="main">
-        <div id="navbar">
-            <nav class="flex bg-gray-50 shadow-md px-3">
+        <div id="navbar" class="container mx-auto">
+            <nav class="flex bg-white shadow-md px-3">
                 <div id="logo" class=" w-full flex items-center space-x-2 ">
                     <img src="img/logo.svg" alt="" class="w-14 h-14 ">
                     <!-- search button -->
-                    <div class="bg-gray-200 flex items-center space-x-2 px-2 rounded-3xl ">
+                    <div class="bg-gray-100 flex items-center space-x-2 px-2 rounded-3xl ">
                         <span class="material-symbols-outlined text-slate-700">
                             search
                         </span>
                         <input type="text" placeholder="Search Facebook"
-                            class="w-48 h-10 bg-transparent outline-none cursor-pointer">
+                            class="w-48 h-10 bg-transparent outline-none cursor-pointer text-sm font-light">
 
                     </div>
                 </div>
@@ -31,26 +31,26 @@
                 <!-- nav center elements -->
                 <div id="options" class=" w-full flex justify-between  ">
                     <div
-                        class="w-full flex items-center justify-center hover:bg-gray-200 mx-1 my-1 rounded-lg cursor-pointer">
+                        class="w-full flex items-center justify-center hover:bg-gray-100 mx-1 my-1 rounded-lg cursor-pointer">
                         <span class="material-symbols-outlined text-4xl text-slate-600">
                             home
                         </span>
 
                     </div>
-                    <div class="w-full flex items-center justify-center hover:bg-gray-200 mx-1 my-1 rounded-lg">
+                    <div class="w-full flex items-center justify-center hover:bg-gray-100 mx-1 my-1 rounded-lg">
                         <span
-                            class="material-symbols-outlined text-3xl hover:bg-gray-200 mx-1 my-1 rounded-lg cursor-pointer text-slate-600">
+                            class="material-symbols-outlined text-3xl hover:bg-gray-100 mx-1 my-1 rounded-lg cursor-pointer text-slate-600">
                             group
                         </span>
                     </div>
                     <div
-                        class="w-full flex items-center justify-center hover:bg-gray-200 mx-1 my-1 rounded-lg cursor-pointer">
+                        class="w-full flex items-center justify-center hover:bg-gray-100 mx-1 my-1 rounded-lg cursor-pointer">
                         <span class="material-symbols-outlined text-3xl text-slate-600">
                             storefront
                         </span>
                     </div>
                     <div
-                        class="w-full flex items-center justify-center hover:bg-gray-200 mx-1 my-1 rounded-lg cursor-pointer">
+                        class="w-full flex items-center justify-center hover:bg-gray-100 mx-1 my-1 rounded-lg cursor-pointer ">
                         <span class="material-symbols-outlined text-4xl text-slate-600">
                             sports_esports
                         </span>
@@ -90,6 +90,91 @@
 
 
             </nav>
+
+        </div>
+        <div id="feed" class="w-full container mx-auto flex  my-5">
+
+            <!-- left feed -->
+            <div class="w-full ml-3">
+                <ul class="space-y-0.5 cursor-pointer">
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium font w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600 ">
+                            account_circle
+                        </span>Irfan Hashmi
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Group
+                        </span>Friends
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            History
+                        </span>Memories
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Bookmark
+                        </span>Saved
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Groups
+                        </span>Groups
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Storefront
+                        </span>Marketplace
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Stream_Apps
+                        </span>Feeds
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Edit_Calendar
+                        </span>Events
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Bar_Chart
+                        </span>Ads Manager
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Volunteer_Activism
+                        </span>Fund Raiser
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Videogame_Asset
+                        </span>Play Games
+                    </li>
+                    <li
+                        class="flex items-center gap-1.5 text-sm font-medium w-4/6  rounded-xl p-1 hover:bg-slate-200">
+                        <span class="material-symbols-outlined text-3xl text-gray-600">
+                            Keyboard_Arrow_Down
+
+                        </span>More
+                    </li>
+                </ul>
+            </div>
+            <div class="w-full bg-white">centre feed</div>
+            <div class="w-full "> right feed</div>
+
         </div>
     </div>
 </body>
