@@ -14,7 +14,7 @@
     <div id="main">
         <div id="navbar" class="container mx-auto">
             <nav class="flex bg-white shadow-md px-3">
-                <div id="logo" class=" w-full flex items-center space-x-2 ">
+                <div id="logo" class=" w-2/5 flex items-center space-x-2 ">
                     <img src="img/logo.svg" alt="" class="w-14 h-14 ">
                     <!-- search button -->
                     <div class="bg-gray-100 flex items-center space-x-2 px-2 rounded-3xl ">
@@ -29,7 +29,7 @@
 
 
                 <!-- nav center elements -->
-                <div id="options" class=" w-full flex justify-between  ">
+                <div id="options" class=" w-3/5 flex justify-between  ">
                     <div
                         class="w-full flex items-center justify-center hover:bg-gray-100 mx-1 my-1 rounded-lg cursor-pointer">
                         <span class="material-symbols-outlined text-4xl text-slate-600">
@@ -59,7 +59,7 @@
                 </div>
 
                 <!-- right navbar -->
-                <div class="w-full flex items-center justify-end space-x-2 ">
+                <div class="w-2/5 flex items-center justify-end space-x-2 ">
                     <div
                         class="bg-slate-300 flex justify-center items-center p-0.5 rounded-full w-9 cursor-pointer hover:bg-slate-400 ">
                         <span class="material-symbols-outlined text-2xl">
@@ -93,7 +93,7 @@
         <div id="feed" class="w-full container mx-auto flex  my-5">
 
             <!-- left feed -->
-            <div class="w-full ml-3">
+            <div class="w-2/5 ml-3">
                 <ul class="space-y-0.5 cursor-pointer">
                     <li
                         class="flex items-center gap-1.5 text-sm font-medium font w-4/6  rounded-xl p-1 hover:bg-slate-200">
@@ -168,17 +168,41 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-full ">
+            <div class="w-3/5 space-y-3">
                 <!-- whats in my mind -->
-                <div class="w-full bg-white p-3 rounded-xl  shadow-md">
-                    <div class="flex space-x-3">
+                <div class="w-full bg-white p-3 rounded-xl  shadow">
+                    <div class="flex space-x-3 border-b border-b-slate-300 pb-2.5">
                         <img src="img/profilePic.jpg" alt="" srcset="" class="h-9 w-9 rounded-full">
-                        <input type="text" placeholder="What's on your mind,Irfan?" class="w-full h-9 outline-none bg-gray-200 rounded-3xl pl-3 font-normal">
+                        <input type="text" placeholder="What's on your mind, Irfan?" class="w-full h-9 outline-none bg-gray-100 rounded-3xl pl-3 font-normal ">
+                    </div>
+                    <div class="flex space-x-2 mt-2">
+                        <div class="w-full flex justify-center items-center rounded-xl hover:bg-slate-100 text-sm gap-1.5 cursor-pointer font-medium text-slate-500 py-0.5"><span class="material-symbols-outlined text-red-500 text-3xl">
+                            Smart_Display
+                            </span>Live Video</div>
+                        <div class="w-full flex justify-center items-center rounded-xl hover:bg-slate-100 text-sm gap-1.5 cursor-pointer font-medium text-slate-500 py-0.5"><span class="material-symbols-outlined text-3xl text-emerald-500">
+                            image
+                            </span>Photo/Video</div>
+                        <div class="w-full flex justify-center items-center rounded-xl hover:bg-slate-100 text-sm gap-1.5 cursor-pointer font-medium text-slate-500 py-0.5"><span class="material-symbols-outlined text-yellow-400 text-3xl">
+                            mood
+                            </span>Feeling/Activity</div>
                     </div>
                 </div>
 
+                <!-- create your story -->
+                 <div class="w-full bg-white rounded-lg shadow p-1.5">
+                    <div class="hover:bg-slate-100 flex items-center space-x-2 p-2 rounded-xl">
+                        <div class="px-2 flex items-center justify-center rounded-full h-9 bg-gray-100"><span class="material-symbols-outlined text-xl  text-blue-600">
+                            add
+                            </span></div>
+                        <div class="">
+                            <p class=" leading-5 font-semibold text-base text-slate-800">Create Story</p> 
+                            <p class=" text-sm text-slate-500">Share Photo Or Write Something</p> 
+                        </div>
+                    </div>
+                 </div>
+
             </div>
-            <div class="w-full "> right feed</div>
+            <div class="w-2/5"> right feed</div>
 
         </div>
     </div>
